@@ -1,0 +1,159 @@
+body{
+  background-color: #1b252f;
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Roboto', sans-serif;
+}
+.Carousel-img{
+  height: 700px
+}
+.lineHead1{
+  color: #F14A16;
+  font-size: 18px;
+}
+.lineHead2{
+  color: white;
+  font-weight: bold;
+  font-size: 32px;
+  margin-top: 10px;
+}
+.Line{
+  background-color: #F14A16;
+  border: 1.3px solid #F14A16;
+  opacity: 1;
+  border-radius: .6em;
+  margin-top: 25px;
+}
+.spaceLine{
+  margin: 50px 0px;
+}
+
+.classCard{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transition-duration: .5s;
+}
+.classCard img{
+  width: 85%;
+}
+.classCard:hover{
+  transform: scale(1.1);
+}
+.classCard div{
+  color: white;
+  background-color: #5804fa;
+  width: 85%;
+  text-align: center;
+  padding: 15px;
+  font-size: 22px;
+  font-style: italic;
+  font-weight: bold;
+  border-bottom: 3px solid #F14A16;
+}
+
+.buttonArrow{
+  background-color: #F14A16;
+  padding: 20px;
+  font-size: 20px;
+  margin: 40px auto;
+  width: 14%;
+  font-weight: bold;
+  border-radius: .6em;
+  color: white;
+  border: 1px solid white;
+  transition-duration: .3s;
+}
+.buttonArrow:hover{
+  transform: scale(.9);
+  cursor: pointer;
+}
+.state{
+  padding: 180px 80px;
+}
+.state .Line{
+  background-color: #ffde01;
+  border: #ffde01;
+
+}
+.state .lineHead1{
+  color: #ffde01;
+}
+.state .lineHead2{
+  color: #ffde01;
+}
+.stateFont1{
+  font-size: 28px;
+  font-weight: bold;
+  margin: 5px 0px;
+}
+.stateFont2{
+  font-size: 18px;
+}
+
+.logo{
+  width: auto;
+  border: 6px solid #ffde01;
+  padding: 80px;
+  border-radius: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 40px 0px ;
+  color: #ffde01;
+  transition-duration:.2s; 
+}
+.logo:hover{
+  color: #1b252f;
+  background-color: #F14A16;
+}
+.logo :first-child{
+  color: inherit;
+  font-size: 90px;
+}
+.logo div:nth-of-type(1){
+  color: inherit;
+  font-size: 50px;
+  font-weight: bold;
+  font-style: italic;
+}
+.logo div:nth-of-type(2){
+  color: inherit;
+  font-size: 30px;
+  font-style: italic;
+}
+
+.trrainer{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.trainerCard{
+  width: 18rem ;
+  padding:2px ;
+  height: auto;
+  background-color:transparent;
+  border: 2px solid #F14A16;
+  border-radius: .6em;
+  transition-duration:.4s ;
+}
+.trainerCard:hover{
+  transform: scale(1.1);
+  border: 2px solid #ffde01;
+}
+.trainerCard div:nth-child(1){
+  font-size: 25px;
+  font-weight: bold;
+  font-family: 'Roboto', sans-serif;
+  font-style: italic;
+  color: inherit;
+}
+.trainerCard div:nth-child(2){
+  font-size: 15px;
+  color: white;
+}
+.trainerCard :first-child{
+  border-radius: .5em;
+}

@@ -1,0 +1,331 @@
+.image{
+    width:100%;
+   border-radius: 10px;
+}
+.text{
+
+  padding-left: 30%;
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+}
+.p{
+  font-size: 20px;
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+}
+.cardy:hover {
+    background-color: #5804fa;
+  }
+.cent{
+    border-radius: 0.9em;
+
+    text-align: center;
+    margin-top: 12px;
+    margin-bottom: 30px;
+    background-color: #FC9918;
+    border-radius:10px;
+    background-color: #1F1D36;
+    border-right:2px;
+   
+    border-left:2px;
+    
+    border-top:2px ;
+    
+    border-bottom:2px;
+    
+    box-shadow: 10px 10px 10px #170f24;
+    
+}
+
+html {
+    box-sizing: border-box;
+  }
+  
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+  
+  .columny {
+    float: left;
+    width: 33.3%;
+    margin-bottom: 16px;
+    padding: 0 8px;
+  }
+  
+  .cardy {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    margin: 8px;
+  }
+  
+  .about-sectiony {
+    padding: 50px;
+    text-align: center;
+    background-color: #474e5d;
+    color: white;
+  }
+  
+  .containery {
+    padding: 0 16px;
+  }
+  
+  .containery::after, .rowy::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  .titley {
+    color: grey;
+    font-size: medium;
+  }
+  
+  .buttony {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: rgb(2, 59, 61);;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    border-radius: 10px;
+  }
+  
+  .buttony:hover {
+    background-color: #FC9918;
+  }
+  
+  @media screen and (max-width: 650px) {
+    .column {
+      width: 100%;
+      display: block;
+    }
+}
+h1,p,h2{
+    color: white;
+}
+.body {
+    background-image: url("D:\MyPart\se-pro\public\2.jpg");
+      font-family: Arial, Helvetica, sans-serif; 
+    }
+    .fsize{
+      font-size: 20px;
+      font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+    .card{
+      width: 30%;
+    }
+   p{
+       font-size: 15px;
+       text-align: center;
+   }
+    html {
+      box-sizing: border-box;
+    }
+    
+    *, *:before, *:after {
+      box-sizing: inherit;
+    }
+    .p{
+      
+      padding-left: 30px;
+    }
+    .text{
+      padding-left: 30%;
+      text-align: center;
+      font-family: 'Times New Roman', Times, serif;
+    }
+    .size{
+        width: 130%;
+        margin-top: 5px;
+        border-radius: 10px;
+        
+    }
+   .t4{
+     width: 130%;
+     margin-top: 5px;
+     border-radius: 10px;
+   }
+    .column {
+      height: 80;
+      width: 80%;
+      text-align: center;
+    }
+    .about-section {
+      height: 450px;
+      text-align: center;
+      background-image: url("https://images.pexels.com/photos/1552249/pexels-photo-1552249.jpeg?cs=srgb&dl=pexels-leon-ardho-1552249.jpg&fm=jpg");
+      background-repeat: no-repeat;
+      background-position:center;
+      background-size: 100%;
+      color:rgb(252, 248, 248);
+    }
+    
+    
+    
+    .container::after, .row::after {
+      content: "";
+      clear: both;
+      display: table;
+      height: 5px;
+    }
+    
+    .title {
+      color: grey;
+      font-size: medium;
+    }
+    .bord{
+      /*border-style: solid;*/
+      border-radius: 5px;
+      background-image: url("D:\MyPart\se-pro\public\1.jpg");
+     border-color: black;
+     color:white;
+     /*border-width: 2px;*/
+     
+     
+    }
+    .button {
+      border: black;
+      display:inline-flexbox;
+      padding: 8px;
+      color: white;
+      background-color: rgb(2, 59, 61);
+      text-align: center;
+      cursor: pointer;
+      width: 150%;
+      border-radius: 10px;
+      position:relative;
+      bottom:10% ;
+      top: 20%;
+      right: 10%;
+      margin-top: 17px;
+      border-radius: 10px;
+  
+    }
+    .button1{
+      border: black;
+      display:inline-flexbox;
+      padding: 8px;
+      color: white;
+      background-color: rgb(2, 59, 61);
+      text-align: center;
+      cursor: pointer;
+      width: 150%;
+      border-radius: 10px;
+      position:relative;
+      bottom:10% ;
+      top: 20%;
+      right: 10%;
+      margin-top: 63px;
+      border-radius: 10px;
+    }
+    .bu{
+      border: black;
+      display:inline-flexbox;
+      padding: 8px;
+      color: white;
+      background-color: rgb(2, 59, 61);
+      text-align: center;
+      cursor: pointer;
+      width: 150%;
+      border-radius:10px;
+      position:relative;
+      bottom:5px;
+      right: 10%;
+      top:10px;
+      margin-top: 31px;
+      border-radius: 10px;
+    }
+    .bu1{
+      border: black;
+      display:inline-flexbox;
+      padding: 8px;
+      color: white;
+      background-color: rgb(2, 59, 61);
+      text-align: center;
+      cursor: pointer;
+      width: 150%;
+      border-radius:10px;
+      position:relative;
+      bottom:5px;
+      right: 10%;
+      border-radius: 10px;
+     
+    }
+    .h{
+      border-radius: 0.9em;
+      margin-left:250px;
+      margin-right: 250px;
+    }
+    .button:hover {
+      background-color: #555;
+    }
+    .button1:hover {
+      background-color: #555;
+    }
+    .bu:hover {
+      background-color: #555;
+    }
+    .bu1:hover {
+      background-color: #555;
+    }
+    
+    @media screen and (max-width: 600px) {
+      .column {
+        width: 50%;
+        display: block;
+       
+      }
+    }
+  
+  
+  
+  .fb{
+    width:300px;height:300px;
+    border-radius: 0.9em;
+  }
+  
+  
+  
+  
+    .flip-card {
+      background-color: transparent;
+      width: 300px;
+      height: 300px;
+      perspective: 1000px;
+      border: black;
+      border-radius: 0.7em;
+    }
+    
+    .flip-card-inner {
+      position: relative;
+      width: 100%;
+      height: 100%;
+      text-align: center;
+      transition: transform 0.6s;
+      transform-style: preserve-3d;
+      box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    }
+    
+    .flip-card:hover .flip-card-inner {
+      transform: rotateY(180deg);
+    }
+    
+    .flip-card-front, .flip-card-back {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      -webkit-backface-visibility: hidden;
+      backface-visibility: hidden;
+    }
+    
+    
+    
+    .flip-card-back {
+      background-color: #FC9918;
+      color: white;
+      transform: rotateY(180deg);
+      border-radius: 0.7em;
+  
+    }
